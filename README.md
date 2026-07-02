@@ -3,11 +3,6 @@ A curated list of awesome PL/I libraries, software and resources.
 
 - [Awesome PL/I](#awesome-pli)
 	- [Networking](#networking)
-	- [Math libs](#math-libs)
- - [Compiling and building](#compiling-and-building)
- - [Preprocessor](#preprocessor)
- - [Automatic documentation](#automatic-documentation)
- - [Computational Fluid Dynamics](#computational-fluid-dynamics)
  - [Docker](#docker)
 - [Resources](#resources)
  - [PL/I Websites](#pli-websites)
