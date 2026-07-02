@@ -3,6 +3,7 @@ A curated list of awesome PL/I libraries, software and resources.
 
 - [Awesome PL/I](#awesome-pli)
 	- [Networking](#networking)
+	- [Operating Systems](#operating-systems)
  - [Docker](#docker)
 - [Resources](#resources)
  - [PL/I Websites](#pli-websites)
@@ -10,9 +11,14 @@ A curated list of awesome PL/I libraries, software and resources.
 - [Contributing](#contributing)
 
 ## Networking
-*Libraries for networking
+Libraries for networking
 
 * [netlib](https://github.com/ross-shk/libnet) - A basic networking library for PL/I.
+
+## Operating Systems
+
+* [Multics](https://github.com/dancrossnyc/multics) - The MULTICS operating system.
+
 
 ## Docker - TO DO
 
