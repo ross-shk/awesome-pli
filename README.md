@@ -20,7 +20,9 @@ A curated list of awesome PL/I libraries, software and resources.
 
 ## Algorithms
 
-[Numerical Methods](http://www.teampli.net/RobinV/numeric.htm) - implementations for various numerical methods.
+[Numerical Methods](http://www.teampli.net/RobinV/numeric.htm) - Implementation of various numerical and statistical methods.
+
+[Physics Computations](https://www.plasmaphysics.org.uk/programs/) - Computer Programs for Plasma Physics, Atomic Physics and Radiative Transfer.
 
 ## Docker
 
