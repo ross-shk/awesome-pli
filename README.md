@@ -18,8 +18,11 @@ A curated list of awesome PL/I libraries, software and resources.
 
 * [Multics](https://github.com/dancrossnyc/multics) - The MULTICS operating system.
 
+## Algorithms
 
-## Docker - TO DO
+[Numerical Methods](http://www.teampli.net/RobinV/numeric.htm) - implementations for various numerical methods.
+
+## Docker
 
 * [Unoficial Image for Iron Spring PL/I](https://github.com/ross-shk/pli-docker)
 
