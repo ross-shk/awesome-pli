@@ -11,7 +11,6 @@ A curated list of awesome PL/I libraries, software and resources.
 - [Contributing](#contributing)
 
 ## Networking
-Libraries for networking
 
 * [netlib](https://github.com/ross-shk/libnet) - A basic networking library for PL/I.
 
@@ -22,7 +21,7 @@ Libraries for networking
 
 ## Docker - TO DO
 
-* [Unoficial Image](https://hub.docker.com/r/baekjoon/onlinejudge-fortran/) - docker image provided by @baekjoon
+* [Unoficial Image for Iron Spring PL/I](https://github.com/ross-shk/pli-docker)
 
 ## Sample Projects
 
