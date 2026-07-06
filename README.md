@@ -26,7 +26,7 @@ A curated list of awesome PL/I libraries, software and resources.
 
 ## Docker
 
-* [Unoficial Image for Iron Spring PL/I](https://github.com/ross-shk/pli-docker)
+* [Iron Spring PL/I Docker Image](https://github.com/ross-shk/pli-docker) - Unofficial Docker image for Iron Spring PL/I.
 
 ## Sample Projects
 
