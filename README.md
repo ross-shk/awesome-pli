@@ -52,7 +52,8 @@ Various resources, such as books, websites and articles, for improving your PL/I
 
 * [Team PL/I](http://www.teampli.net) - A site to support and encourage the use of PL/I.
 * [Iron Spring PL/I User Group](https://groups.io/g/Iron-Spring/) - Iron Spring PL/I compiler users group.
-* [comp.lang.pl1] - Usenet newsgroup dedicated to discussions about PL/I.
+* [comp.lang.pl1](comp.lang.pl1) - Usenet newsgroup dedicated to discussions about PL/I.
+* [PL/I at Rosetta Code](https://rosettacode.org/wiki/Category:PL/I).
 
 ## Videos
 
