@@ -20,7 +20,7 @@ Looking for older tools? The [legacy page](legacy.md) keeps historically interes
 
 - [pli-llvm](https://github.com/ross-shk/pli-llvm) - A modern open-source, cross-platform PL/I compiler built on LLVM.
 - [IBM Enterprise PL/I for z/OS](https://www.ibm.com/products/pli-compiler-zos) - IBM's commercial compiler for PL/I on z/OS.
-- [Iron Spring PL/I](http://www.iron-spring.com) - A Linux compiler with current releases and useful documentation.
+- [Iron Spring PL/I](http://www.iron-spring.com) - A 32-bit Linux compiler with current releases and useful documentation.
 
 ## Editors and IDEs
 
