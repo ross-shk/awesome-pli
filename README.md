@@ -1,110 +1,89 @@
-# Awesome PL/I [![Awesome](https://awesome.re/badge.svg)](https://github.com/sindresorhus/awesome)
+# Awesome PL/I [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> A curated list of awesome PL/I compilers, libraries, tools and resources.
+> PL/I is a general-purpose language IBM introduced in the 1960s for business, scientific, and systems programming.
 
-PL/I (Programming Language One) is a general-purpose language designed by IBM in the 1960s and still in active use on mainframes and other platforms today.
+PL/I has been around for decades, and you'll still find it in mainframe systems and newer compiler projects. Use this page to find compilers, editors, code examples, and places to learn more.
+
+Looking for older tools? The [legacy page](legacy.md) keeps historically interesting, inactive projects out of the main list.
 
 ## Contents
 
 - [Compilers](#compilers)
 - [Editors and IDEs](#editors-and-ides)
 - [Libraries](#libraries)
-- [Algorithms](#algorithms)
-- [Operating Systems](#operating-systems)
+- [Algorithms and Code Examples](#algorithms-and-code-examples)
 - [Emulation](#emulation)
 - [Docker](#docker)
-- [Sample Projects](#sample-projects)
 - [Resources](#resources)
-  - [Documentation](#documentation)
-  - [Websites](#websites)
-  - [Communities](#communities)
-  - [Books](#books)
-  - [Videos](#videos)
-  - [Courses](#courses)
-- [Contributing](#contributing)
 
 ## Compilers
 
-* [IBM Enterprise PL/I for z/OS](https://www.ibm.com/products/pli-compiler-zos) - IBM's commercial PL/I compiler for z/OS.
-* [Iron Spring PL/I](http://www.iron-spring.com) - Native PL/I compiler for Linux and OS/2.
-* [Kednos PL/I](https://www.kednos.com) - PL/I compiler for OpenVMS on VAX and Alpha.
-* [PLI-2000](https://github.com/Steadsoft/PLI-2000) - PL/I compiler for Windows NT.
-* [pl1gcc](https://sourceforge.net/projects/pl1gcc/) - PL/I front end for the GNU Compiler Collection (inactive).
+- [pli-llvm](https://github.com/ross-shk/pli-llvm) - An open-source, cross-platform PL/I compiler built on LLVM.
+- [IBM Enterprise PL/I for z/OS](https://www.ibm.com/products/pli-compiler-zos) - IBM's commercial compiler for PL/I on z/OS.
+- [Iron Spring PL/I](http://www.iron-spring.com) - A Linux compiler with current releases and useful documentation.
 
 ## Editors and IDEs
 
-* [IBM Z Open Editor](https://ibm.github.io/zopeneditor-about/) - Free VS Code extension providing a modern editing experience for IBM Z enterprise languages, including PL/I.
-* [PL/I Language Support](https://github.com/zowe/zowe-pli-language-support) - Zowe VS Code extension providing a language server for PL/I.
-* [SPF-Editor](https://github.com/michaelknigge/spf-editor) - Editor and file manager that emulates the IBM mainframe ISPF editor.
-* [SPFLite](https://www.spflite.com) - ISPF-like text editor for Windows.
+- [IBM Z Open Editor](https://ibm.github.io/zopeneditor-about/) - Brings PL/I editing support to Visual Studio Code and IBM Z workflows.
+- [PL/I Language Support](https://github.com/zowe/zowe-pli-language-support) - Zowe's PL/I language-server extension for Visual Studio Code.
+- [SPFLite](https://www.spflite.com) - A Windows editor modeled on the familiar ISPF experience.
 
 ## Libraries
 
-* [libnet](https://github.com/ross-shk/libnet) - Basic networking library for PL/I.
+- [libnet](https://github.com/ross-shk/libnet) - Socket and networking routines for PL/I, with most of the implementation in PL/I and a small C bridge.
 
-## Algorithms
+## Algorithms and Code Examples
 
-* [Numerical Methods](http://www.teampli.net/RobinV/numeric.htm) - Implementations of various numerical and statistical methods.
-* [Physics Computations](https://www.plasmaphysics.org.uk/programs/) - Programs for plasma physics, atomic physics and radiative transfer.
-* [PL/I at Rosetta Code](https://rosettacode.org/wiki/Category:PL/I) - Solutions to hundreds of programming tasks written in PL/I.
-
-## Operating Systems
-
-* [Multics](https://github.com/dancrossnyc/multics) - Source code of the Multics operating system, written largely in PL/I.
-* [Multics PL/I](https://multicians.org/pl1.html) - History and design of the Multics PL/I compiler.
+- [Numerical Methods](http://www.teampli.net/RobinV/numeric.htm) - A collection of PL/I numerical and statistical methods.
+- [Physics Computations](https://www.plasmaphysics.org.uk/programs/) - PL/I programs for plasma and atomic physics, plus radiative transfer.
+- [PL/I at Rosetta Code](https://rosettacode.org/wiki/Category:PL/I) - PL/I solutions to common programming challenges.
 
 ## Emulation
 
-* [DPS8M](https://gitlab.com/dps8m/dps8m) - Simulator for the GE/Honeywell DPS8/M mainframe, capable of running Multics.
-* [MVS 3.8j TK5](https://www.prince-webdesign.nl/tk5) - Ready-to-run MVS 3.8j system for the Hercules emulator, on which the IBM PL/I (F) compiler can be used.
+- [DPS8M](https://gitlab.com/dps8m/dps8m) - A GE/Honeywell DPS8/M simulator that can run Multics.
+- [MVS 3.8j TK5](https://www.prince-webdesign.nl/tk5) - A ready-to-run MVS 3.8j system for Hercules, with access to the IBM PL/I (F) compiler.
 
 ## Docker
 
-* [Iron Spring PL/I Docker Image](https://github.com/ross-shk/pli-docker) - Unofficial Docker image for the Iron Spring PL/I compiler.
-
-## Sample Projects
-
-* [Bank-PLI](https://github.com/markbsigler/Bank-PLI) - Enterprise PL/I banking application.
-* [PLI](https://github.com/nkimotou/PLI/) - Collection of PL/I programs exploring legacy systems.
+- [Iron Spring PL/I Docker Image](https://github.com/ross-shk/pli-docker) - An unofficial Docker image for trying the Iron Spring PL/I compiler.
 
 ## Resources
 
-Various resources, such as documentation, books, websites and courses, for improving your PL/I development skills and knowledge.
+Looking for a reference, a community, or a deeper dive? These links are a good place to start.
 
 ### Documentation
 
-* [Enterprise PL/I for z/OS Documentation](https://www.ibm.com/docs/en/epfz) - Language Reference, Programming Guide and Messages for IBM Enterprise PL/I.
-* [Iron Spring PL/I Programming Guide](http://www.iron-spring.com/prog_guide.html) - Reference manual for the Iron Spring PL/I compiler.
-* [IBM PL/I Manuals at Bitsavers](https://www.bitsavers.org/pdf/ibm/360/pli/) - Scanned manuals for the System/360 PL/I (F) and Optimizing compilers.
+- [Enterprise PL/I for z/OS Documentation](https://www.ibm.com/docs/en/epfz) - IBM's language reference, programming guide, and compiler messages, all in one place.
+- [Iron Spring PL/I Programming Guide](http://www.iron-spring.com/prog_guide.html) - A practical guide to programming with the Iron Spring compiler.
+- [IBM PL/I Manuals at Bitsavers](https://www.bitsavers.org/pdf/ibm/360/pli/) - Scanned manuals for the System/360 PL/I (F) and Optimizing compilers.
 
 ### Websites
 
-* [PL/I on Wikipedia](https://en.wikipedia.org/wiki/PL/I) - Overview of the language, its history and implementations.
-* [Team PL/I](http://www.teampli.net) - Site to support and encourage the use of PL/I.
-* [Multicians](https://www.multicians.org/) - History of Multics, the operating system written in PL/I.
+- [PL/I on Wikipedia](https://en.wikipedia.org/wiki/PL/I) - A quick overview of the language, its history, and its implementations.
+- [Team PL/I](http://www.teampli.net) - A long-running site with PL/I articles, code, and references.
+- [Multicians](https://www.multicians.org) - Historical and technical information about Multics, the operating system written largely in PL/I.
 
 ### Communities
 
-* [comp.lang.pl1](https://groups.google.com/g/comp.lang.pl1) - Usenet newsgroup dedicated to discussions about PL/I.
-* [Iron Spring PL/I User Group](https://groups.io/g/Iron-Spring/) - Mailing list for Iron Spring PL/I compiler users.
-* [Stack Overflow](https://stackoverflow.com/questions/tagged/pl1) - Questions tagged `pl1`.
-* [GitHub Topic: pl1](https://github.com/topics/pl1) - Repositories tagged with the `pl1` topic.
+- [comp.lang.pl1](https://groups.google.com/g/comp.lang.pl1) - The PL/I Usenet discussion group, archived on Google Groups.
+- [Iron Spring PL/I User Group](https://groups.io/g/Iron-Spring/) - A mailing list for Iron Spring compiler users.
+- [Stack Overflow](https://stackoverflow.com/questions/tagged/pl1) - Questions and answers tagged `pl1`.
+- [GitHub Topic: pl1](https://github.com/topics/pl1) - GitHub repositories tagged `pl1`.
 
 ### Books
 
-* [The PL/I Programming Language](http://www.iron-spring.com/abrahams.pdf) - Paul W. Abrahams' introduction to the language, freely available as PDF.
-* [Class Notes for A PL/I Course](http://www.teampli.net/Class_notes.pdf) - Course notes from Team PL/I, freely available as PDF.
-* [The New PL/I](https://link.springer.com/book/10.1007/978-3-540-79447-2) - Eberhard Sturm's textbook covering PL/I for PC, workstation and mainframe.
+- [The PL/I Programming Language](http://www.iron-spring.com/abrahams.pdf) - Paul W. Abrahams' introduction to PL/I, available as a free PDF.
+- [Class Notes for a PL/I Course](http://www.teampli.net/Class_notes.pdf) - Team PL/I's course notes, available as a free PDF.
 
 ### Videos
 
-* [Mainframe PL/I](https://www.youtube.com/playlist?list=PLLcYGaQ7eeuRHk48TKIQLVFccvAankCtf) - Mainframe PL/I tutorial playlist.
-* [PL/1 Programming Language](https://www.youtube.com/playlist?list=PLPtOfwBr96-XpQvDr-FGw6vdLf8sGwrde) - Introductory PL/I programming playlist.
+- [Mainframe PL/I](https://www.youtube.com/playlist?list=PLLcYGaQ7eeuRHk48TKIQLVFccvAankCtf) - Video tutorials focused on PL/I on mainframes.
+- [PL/1 Programming Language](https://www.youtube.com/playlist?list=PLPtOfwBr96-XpQvDr-FGw6vdLf8sGwrde) - A beginner-friendly introduction to PL/I.
 
 ### Courses
 
-* [Introduction to the PL/I Programming Language](https://www.ibm.com/training/course/introduction-to-the-pli-programming-language-DL00964G) - IBM's self-paced digital course.
+- [Introduction to the PL/I Programming Language](https://www.ibm.com/training/course/introduction-to-the-pli-programming-language-DL00964G) - IBM's self-paced course for getting started with PL/I.
 
 ## Contributing
 
-Contributions are always welcome! Please submit a pull request or open an issue to add a new compiler, library, tool or resource to the list.
+Found a useful PL/I resource—or spotted something that needs updating? Contributions are welcome; see the [contribution guidelines](CONTRIBUTING.md) before opening an issue or pull request.
