@@ -36,7 +36,7 @@ Looking for older tools? The [legacy page](legacy.md) keeps historically interes
 
 - [Numerical Methods](http://www.teampli.net/RobinV/numeric.htm) - A collection of PL/I numerical and statistical methods.
 - [Physics Computations](https://www.plasmaphysics.org.uk/programs/) - PL/I programs for plasma and atomic physics, plus radiative transfer.
-- [PL/I Virtual Source Archive](http://www.teampli.net/plisrc.html) - An index of freely available PL/I programs, including games, data structures, text tools, and utilities.
+- [PL/I Virtual Source Archive](http://www.teampli.net/plisrc.html) - Freely available PL/I programs, including games, data structures, text tools, and utilities.
 - [PL/I at Rosetta Code](https://rosettacode.org/wiki/Category:PL/I) - PL/I solutions to common programming challenges.
 
 ## Emulation
@@ -56,7 +56,7 @@ Looking for a reference, a community, or a deeper dive? These links are a good p
 
 - [Enterprise PL/I for z/OS Documentation](https://www.ibm.com/docs/en/epfz) - IBM's language reference, programming guide, and compiler messages, all in one place.
 - [Iron Spring PL/I Programming Guide](http://www.iron-spring.com/prog_guide.html) - A practical guide to programming with the Iron Spring compiler.
-- [PL/I Virtual Reference Library](http://www.teampli.net/plilib.html) - An index of online PL/I manuals covering IBM, Iron Spring, Multics, PL/C, and other implementations.
+- [PL/I Virtual Reference Library](http://www.teampli.net/plilib.html) - Online PL/I manuals covering IBM, Iron Spring, Multics, PL/C, and other implementations.
 - [PL/I Programming Style Guide](http://www.teampli.net/plistyle.html) - Practical guidance on readable, structured, and maintainable PL/I code.
 - [IBM PL/I Manuals at Bitsavers](https://www.bitsavers.org/pdf/ibm/360/pli/) - Scanned manuals for the System/360 PL/I (F) and Optimizing compilers.
 
@@ -64,8 +64,8 @@ Looking for a reference, a community, or a deeper dive? These links are a good p
 
 - [PL/I on Wikipedia](https://en.wikipedia.org/wiki/PL/I) - A quick overview of the language, its history, and its implementations.
 - [Team PL/I](http://www.teampli.net) - A long-running site with PL/I articles, code, and references.
-- [The PL/I Family](http://www.teampli.net/plifamily.html) - A historical overview of PL/I subsets and related languages, from PL/C and Multics EPL to HAL/S and XPL.
-- [The XPL Programming Language](http://www.teampli.net/XPL/) - A PL/I-derived language for compiler writing, with language documentation, historical implementations, and ports.
+- [The PL/I Family](http://www.teampli.net/plifamily.html) - Historical overview of PL/I subsets and related languages, from PL/C and Multics EPL to HAL/S and XPL.
+- [The XPL Programming Language](http://www.teampli.net/XPL/) - PL/I-derived language for compiler writing, with language documentation, historical implementations, and ports.
 - [Multicians](https://www.multicians.org) - Historical and technical information about Multics, the operating system written largely in PL/I.
 
 ### Historical Articles and Archives
