@@ -46,7 +46,7 @@ Looking for older tools? The [legacy page](legacy.md) keeps historically interes
 
 ## Docker
 
-- [Iron Spring PL/I Docker Image](https://github.com/ross-shk/pli-docker) - An unofficial Docker image for trying the Iron Spring PL/I compiler.
+- [PL/I Docker Image](https://github.com/ross-shk/pli-docker) - A Docker image for `pli-llvm`, also contains an unofficial Iron Spring PL/I Docker image.
 
 ## Resources
 
